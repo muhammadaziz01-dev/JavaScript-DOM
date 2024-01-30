@@ -1,7 +1,43 @@
-// let card = document.querySelector(".card");
-// card.style.width = "400px"; 
-// card.style.height = "400px"; 
-// card.style.backgroundColo = "red";
+
+let card = document.querySelector('.card');
+
+
+card.style.cssText = `
+border-radius: 5px;
+background-color: silver;
+width: 400px;
+height: 400px;
+border-radius: 65px;
+pading: 20px;
+margin: 50px auto;
+border: 2px solid red;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+`
+card.innerHTML= "<h1> HELLO DOM</h1>"
+let h1 =card.firstElementChild;
+
+h1.style.cssText="margin: auto; color: red"
+
+card.parentElement.style.backgroundColor="lime"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // console.log(card.style);
 
